@@ -1,0 +1,19 @@
+﻿<Window x:Class="StockObserver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StockObserver"
+        mc:Ignorable="d"
+        Title="StockObserver" Height="250
+        " Width="400
+        ">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="59*"/>
+            <ColumnDefinition Width="741*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="CurrentValueTextBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="86" Width="310" FontSize="50" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="LastUpdateText" HorizontalAlignment="Left" Margin="15,0,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Width="92" Grid.ColumnSpan="2"/>
+    </Grid>
+</Window>
