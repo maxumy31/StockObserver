@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Dl+Ud5AOxUsItS7GzaCkLvwq5cYwJq2WTHwdkW2YImRXbMIXYrzY4ISGDvjAispI6J6eXpvfVodZoLsxF6Pwww==",
+  "dgSpecHash": "QHjcn8TqJhx390vKNm9P+wPh2ddwfP0E/0psuNGGsmZJ4NvoCiSIIJXxEk7nuQg3jO7m15ZWXid5neYFq+wvYA==",
   "success": true,
   "projectFilePath": "F:\\StockObserver\\StockObserver\\StockObserver.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Максимка\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Максимка\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Максимка\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Максимка\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.28\\microsoft.netcore.app.host.win-x64.6.0.28.nupkg.sha512"
+  ],
   "logs": []
 }
