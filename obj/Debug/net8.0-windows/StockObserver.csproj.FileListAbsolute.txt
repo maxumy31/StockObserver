@@ -17,3 +17,4 @@ F:\StockObserver\StockObserver\bin\Debug\net8.0-windows\StockObserver.runtimecon
 F:\StockObserver\StockObserver\obj\Debug\net8.0-windows\MainWindow.baml
 F:\StockObserver\StockObserver\obj\Debug\net8.0-windows\StockObserver.g.resources
 F:\StockObserver\StockObserver\obj\Debug\net8.0-windows\StockObserver.genruntimeconfig.cache
+F:\StockObserver\StockObserver\obj\Debug\net8.0-windows\StockObserver.sourcelink.json

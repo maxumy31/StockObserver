@@ -1,4 +1,5 @@
-﻿using StockObserver.Requests;
+﻿using StockObserver.Configs;
+using StockObserver.Requests;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using static StockObserver.Configs.ConfigHandler;
 
 namespace StockObserver
 {
@@ -26,6 +28,7 @@ namespace StockObserver
         public MainWindow()
         {
             InitializeComponent();
+            LoadDataFromConfig();
 
             _server = RequestServer.GetInstance();
             _updateTimer = new System.Timers.Timer(1000);
@@ -40,6 +43,17 @@ namespace StockObserver
         {
             _server.MakeNewRequest();
             Update();
+        }
+
+        public void LoadDataFromConfig()
+        {
+            ConfigHandler config = new ConfigHandler();
+            ConfigData data = config.GetConfigData();
+            Width = data.width;
+            Height = data.height;
+            this.Left = data.x;
+            this.Top = data.y;
+
         }
 
         public void Update()
